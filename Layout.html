@@ -1,0 +1,46 @@
+  
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <style type="text/css">
+    body {  
+        background-color: green
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1  {
+        text-align: center;
+    }
+    h2  { 
+        text-align: center;   
+    }
+    ul  {
+        text-align:center;
+    }
+    p  {
+        text-align:center;
+    }
+    .center {
+         text-align:center
+    }
+    a   {
+        text-align:center;
+    }
+  </style>
+  <body>
+        <h1 style="font-size:50px;">Drake</h1>
+        <h2 style="font-size:30px:">{{song_name}}</h2>
+        <img src={{ image }} width="450" height="600" ></img>
+        <a style="color:blue; font-size:40px text-align:center" href={{artisturl}}>Drake</a>
+        
+        {% for tweet in tweetset %}
+          <p>"{{ tweet }}"</p>
+        {% endfor %}
+        
+      
+  </body>
+</html>
