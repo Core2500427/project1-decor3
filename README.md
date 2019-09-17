@@ -5,3 +5,4 @@ Some Problems I have had during this project
 1. For one, this project has been especially difficult for me, I am unsure of why I have had so mny problems but I have had problems trying to even get simple problems to work
 2. Another problem I've had was trying to push the app to Heroku
 3. It took me hours to get the app to finally work
+4. It runs through the Layout.html file and I finally got everything to show although its not as random as Id like
